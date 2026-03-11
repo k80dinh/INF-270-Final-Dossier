@@ -570,3 +570,33 @@ hr.my-divider3 {
     color:rgb(79, 128, 192);
 
 }
+
+/*Formmating for JobMarketOutlook start here*/
+
+.hero4 {
+    width: 100%;
+    min-height: 60vh;
+
+    background-image: url(bloom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;  
+}
+
+.jbtitle{
+    font-family: "Playfair Display";
+    font-size: clamp(28px, 4vw, 50px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(148, 180, 223);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
