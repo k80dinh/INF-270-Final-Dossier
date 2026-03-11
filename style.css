@@ -1,0 +1,530 @@
+:root {
+   --menu-count: 3;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(249,245,237) ;
+    margin: 0;
+}
+
+.header-main {
+    width: 100%;
+    padding: 0 60px;
+    height: 60px; 
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+    box-sizing: border-box;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+.specializationdossier{
+
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+    color: rgb(52,38,38) ;
+}
+.header-main > nav {
+    margin-left: auto;
+
+}
+
+.header-main > nav > ul {
+    height:100%;
+    margin: 0;
+    padding-left: 0; 
+    list-style: none; 
+    display: flex;
+    align-self: center;
+}
+
+.header-main ul li {
+    height: 100%;
+    position: relative;
+}
+
+
+.header-main ul li a {
+    text-decoration: none;
+    top: 0;
+    display: block;
+    padding: 0 15px;
+    height: 100%;
+    line-height: 60px;
+
+    font-size: clamp(1.0rem, 1rem + 1vw, 1.75rem);
+    font-family: "Playfair Display";
+    font-style: italic;
+    color: rgb(52,38,38);
+
+    background-color: lightsteelblue;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+
+}
+
+.header-main ul li a:hover {
+    background-color: rgb(79, 128, 192) !important;
+    color: rgb(52,38,38);
+}
+
+/* Dropdown styling start */
+
+.header-main ul li {
+    position: relative;
+}
+
+.header-main ul li ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+    background-color: lightsteelblue;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header-main ul li:hover > ul {
+    display: block;
+}
+
+.header-main ul li ul li a {
+    display: block;
+    padding: 10px 15px;
+    line-height: normal;
+    font-size: 1rem;
+}
+/*responsive adjustments for small screens*/
+
+@media (max-width: 600px) {
+    .hero {
+        min-height: 40vh;
+    }
+
+    .title {
+        font-size: clamp(24px, 7vw, 40px);
+        padding: 12px 0;
+    }
+
+    .subtitle {
+        font-size: clamp(14px, 4vw, 18px);
+        padding: 8px 0;
+    }
+}
+
+/* for format*/
+.hero{
+    width: 100%;
+    min-height: 60vh;
+
+    background-image: url(bridge-modified.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.hero-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.title {
+    width: 100%;
+    background-color: rgb(52,38,38);
+    font-weight: normal;
+    font-size: clamp(30px, 5vw, 60px);
+    font-style: italic;
+    color: rgb(148, 180, 223);
+    padding: 35px 0;
+    margin:0;
+    text-align: center;
+}
+
+.subtitle {
+    width: 100%;
+    background-color: rgb(52,38,38);
+    font-family: "Montserrat";
+    font-size: clamp(16px, 2vw, 20px);
+    color: rgb(148, 180, 223);
+    padding: 40px 0;
+    margin:  -37px 0 0 0;
+    text-align: center;
+    
+    
+}
+
+.overview {
+    font-family: "Playfair Display";
+    font-size: 50px;
+    color:rgb(148, 180, 223);
+    font-style: italic;
+    text-decoration: underline;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4%;
+}
+
+.content{
+    font-family: "Montserrat";
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+}
+
+hr.my-divider {
+  border: none; 
+  height: 10px; 
+  width: 5%;
+  background-color: rgb(249,245,237); 
+  margin-top: 60px;
+  border-top: 10px dotted rgb(52,38,38);
+}
+
+.footer{
+    background-color:lightsteelblue;
+    color:rgb(52,38,38);
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: clamp(16px, 2vw, 25px);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+/* Formatting for typical tasks */ 
+
+
+.herotwo {
+    width: 100%;
+    min-height: 60vh;
+
+    background-image: url(snapdragons.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+.typical-tasks-title {
+    font-family: "Playfair Display";
+    font-size: clamp(28px, 4vw, 50px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(148, 180, 223);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.generaltasks{
+    flex-direction: row; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(52,38,38);
+    width: 75%;
+    max-width: 900px;
+    min-height: 400px;
+    padding: 40px 40px 25px;
+
+    border-radius: 40px;
+    margin: auto; 
+
+    font-family: "Playfair Display";
+    font-size: clamp(24px, 4vw, 50px);
+    font-style: italic;
+    color: rgb(249,245,237);
+
+   
+}
+
+.generaltasks ul {
+    align-self: center;
+    text-align: left;
+    font-size: clamp(16px, 2vw, 25px);
+    font-style: normal;
+    line-height: 2;
+    margin-left: 5%;
+}
+
+@media (max-width: 768px) {
+  .generaltasks {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .generaltasks ul {
+    margin-left: 0;
+  }
+}
+.generaltasksnotes{
+
+    font-family: "Montserrat";
+    font-size: clamp(16px, 2vw, 25px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 4%;
+    line-height: 1.5;
+}
+
+hr.my-divider2 {
+  border: none; 
+  height: 10px; 
+  width: 5%;
+  background-color: rgb(249,245,237); 
+  margin-top: 50px;
+  border-top: 10px dotted rgb(52,38,38);}
+
+.heathersrole {
+    font-family: "Playfair Display";
+    font-size: clamp(28px, 4vw, 50px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(148, 180, 223);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heathersrolecontent{
+    font-family: "Montserrat";
+    font-size: clamp(16px, 2vw, 25px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -2%;
+    line-height: 1.5;
+}
+
+.heathersrolecontent ul {
+    font-family: "Montserrat";
+    font-size: clamp(16px, 2vw, 25px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+
+.heathersrolecontent ul li {
+    margin-bottom: 5%;  /* space between list items */
+}
+
+hr.my-divider3 {
+  border: none; 
+  height: 10px; 
+  width: 5%;
+  background-color: rgb(249,245,237); 
+  margin-top: 4%;
+  border-top: 10px dotted rgb(52,38,38);}
+
+.jobdescriptions{
+    font-family: "Playfair Display";
+    font-size: clamp(28px, 4vw, 50px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(148, 180, 223);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.joblinks{
+    font-family: "Montserrat";
+    font-size: clamp(16px, 2vw, 25px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+    margin-top: -2%;
+    padding-bottom: 5%;
+
+}
+
+a:link {
+    color:rgb(52,38,38);
+}
+
+a:visited{
+    color: rgb(52,38,38);
+}
+
+a:hover{
+    color:rgb(79, 128, 192)
+}
+
+.joblinks ul li {
+    margin-bottom: 3%;  
+}
+
+/* Professional Context Formatting*/
+
+.hero3{
+    width: 100%;
+    min-height: 60vh;
+
+    background-image: url(rosegarden.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.pctitle {
+    font-family: "Playfair Display";
+    font-size: clamp(28px, 4vw, 50px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(148, 180, 223);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pctables,
+.pctables2,
+.pctables3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+
+    background-color: rgb(52,38,38);
+
+    /* slightly smaller boxes */
+    width: clamp(220px, 32%, 360px);
+    max-width: 800px;
+
+    min-height: 360px;
+
+    /* slightly less padding */
+    padding: 30px 30px 20px;
+
+    border-radius: 40px;
+
+    font-family: "Playfair Display";
+    font-size: clamp(20px,4vw, 30px);
+    font-style: italic;
+    color: rgb(249,245,237);
+
+    text-align: center;
+}
+
+.tables-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* consistent spacing horizontally AND when wrapping */
+    gap: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .tables-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pctables {
+        width: 50%;
+    }
+
+    .pctables2 {
+        width: 50%;
+    }
+
+    .pctables3 {
+        width: 50%;
+    }
+}
+
+.pctables,
+.pctables2,
+.pctables3 ul {
+
+    font-style: normal;
+    text-align: left;
+    line-height: 30px;
+    font-size: clamp(18px, 3.5vw, 26px);
+
+}
+
+.pctables li,
+.pctables2 li,
+.pctables3 ul li {
+    margin-bottom: 15px;
+}
