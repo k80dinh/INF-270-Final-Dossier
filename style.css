@@ -409,15 +409,15 @@ hr.my-divider3 {
 
 }
 
-a:link {
+.joblinks a:link {
     color:rgb(52,38,38);
 }
 
-a:visited{
+.joblinks a:visited{
     color: rgb(52,38,38);
 }
 
-a:hover{
+.joblinks a:hover{
     color:rgb(79, 128, 192)
 }
 
@@ -457,20 +457,17 @@ a:hover{
 .pctables2,
 .pctables3 {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     align-content: center;
 
     background-color: rgb(52,38,38);
 
-    /* slightly smaller boxes */
     width: clamp(220px, 32%, 360px);
     max-width: 800px;
 
     min-height: 360px;
 
-    /* slightly less padding */
     padding: 30px 30px 20px;
 
     border-radius: 40px;
@@ -488,7 +485,6 @@ a:hover{
     justify-content: center;
     flex-wrap: wrap;
 
-    /* consistent spacing horizontally AND when wrapping */
     gap: 30px;
 }
 
@@ -512,19 +508,65 @@ a:hover{
     }
 }
 
-.pctables,
-.pctables2,
+.pctables ul,
+.pctables2 ul,
 .pctables3 ul {
 
     font-style: normal;
     text-align: left;
-    line-height: 30px;
-    font-size: clamp(18px, 3.5vw, 26px);
+    line-height: 1.6;
+    font-size: clamp(18px, 3.5vw, 22px);
 
+}
+
+.pctables p,
+.pctables2 p,
+.pctables3 p {
+    font-size: clamp(24px, 3vw, 34px);
+    margin-bottom: 15px;
 }
 
 .pctables li,
 .pctables2 li,
 .pctables3 ul li {
     margin-bottom: 15px;
+}
+
+.tables-container ul li {
+    margin-bottom: 0.5em;
+}
+
+.tables-container ul li a {
+    color: rgb(249,245,237); 
+    transition: color 0.3s; 
+}
+
+.tables-container ul li a:hover {
+    color: rgb(79,128,192);
+}
+
+.profcontent{
+    font-family: "Montserrat";
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5; 
+}
+
+.profcontent a:link{
+    color: rgb(52,38,38) ;
+}
+
+.profcontent a:visited{
+    color:rgb(52,38,38) ;
+}
+
+.profcontent a:hover{
+    color:rgb(79, 128, 192);
+
 }
