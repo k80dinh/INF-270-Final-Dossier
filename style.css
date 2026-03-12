@@ -633,7 +633,7 @@ hr.my-divider3 {
 
 .techskillcontent{
     font-family: "Montserrat";
-    font-size: clamp(24px, 3vw, 34px);
+    font-size: clamp(16px, 2vw, 25px);
 
     display: flex;
     flex-direction: column;
@@ -659,7 +659,7 @@ hr.my-divider3 {
 
 .listcontainer{
     font-family: "Montserrat";
-    font-size: clamp(18px, 3vw, 24px);
+    font-size: clamp(16px, 2vw, 25px);
 
     display: flex;
     justify-content: center;
