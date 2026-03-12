@@ -820,3 +820,61 @@ hr.my-divider3 {
     color: rgb(79, 128, 192);
 }
 
+/*Formatting for References Page*/
+.abtitle{
+    font-family: "Playfair Display";
+    font-size: clamp(35px, 4vw, 50px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(148, 180, 223);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.annotations {
+    font-family: "Montserrat";
+    font-size: clamp(18px, 2.5vw, 22px);
+
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+
+    line-height: 1.5;
+}
+
+.annotations ul {
+    padding-left: 20px;
+}
+
+.annotations li {
+    margin-bottom: 5rem;
+}
+
+.annotations p {
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .annotations {
+        font-size: 18px;
+        width: 92%;
+        line-height: 1.7;
+    }
+}
+
+.annotations a {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.annotations a:link{
+    color: rgb(79, 128, 192);
+}
+
+.annotations a:visited{
+    color: rgb(79, 128, 192);
+}
+
