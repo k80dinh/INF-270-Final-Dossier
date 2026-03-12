@@ -631,6 +631,59 @@ hr.my-divider3 {
     align-items: center;
 }
 
+.techskillcontent{
+    font-family: "Montserrat";
+    font-size: clamp(24px, 3vw, 34px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5; 
+}
+
+.specificskills{
+    font-family: "Playfair Display";
+    font-size: clamp(28px, 4vw, 50px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(148, 180, 223);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.listcontainer{
+    font-family: "Montserrat";
+    font-size: clamp(18px, 3vw, 24px);
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: -2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .listcontainer{
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .listcontainer ul{
+        padding-left: 0;
+        list-style-position: inside;
+    }
+}
+
+
 /*Formatting for Training Agenda begin here*/
 
 .hero6 {
