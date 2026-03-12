@@ -595,7 +595,6 @@ hr.my-divider3 {
     text-decoration: underline;
     color: rgb(148, 180, 223);
 
-    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -613,7 +612,7 @@ hr.my-divider3 {
 
     margin-left: 10%;
     margin-right: 10%;
-    line-height: 1.5;   
+    line-height: 1.5;
 }
 
 /*Formatting for Technical Skill Snapshot start here*/
