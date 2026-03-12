@@ -639,6 +639,8 @@ hr.my-divider3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
     margin-left: 10%;
     margin-right: 10%;
     line-height: 1.5; 
@@ -657,19 +659,6 @@ hr.my-divider3 {
     align-items: center;
 }
 
-.listcontainer{
-    font-family: "Montserrat";
-    font-size: clamp(16px, 2vw, 25px);
-
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin-top: -2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    flex-wrap: wrap;
-}
-
 @media (max-width: 600px) {
     .listcontainer{
         flex-direction: column;
@@ -682,6 +671,20 @@ hr.my-divider3 {
         list-style-position: inside;
     }
 }
+
+.listcontainer{
+    font-family: "Montserrat";
+    font-size: clamp(24px, 3vw, 26px);
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: -2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+}
+
 
 
 /*Formatting for Training Agenda begin here*/
