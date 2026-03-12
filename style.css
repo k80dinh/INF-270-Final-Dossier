@@ -601,6 +601,21 @@ hr.my-divider3 {
     align-items: center;
 }
 
+.jbcontent{
+    font-family: "Montserrat";
+    font-size: clamp(24px, 3vw, 26px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;   
+}
+
 /*Formatting for Technical Skill Snapshot start here*/
 
 .hero5 {
