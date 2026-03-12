@@ -131,6 +131,23 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    .header-main .icon,
+    .header-main .specializationdossier {
+        display: none;
+    }
+
+   
+    .header-main nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+    }
+}
+
 /* for format*/
 .hero{
     width: 100%;
