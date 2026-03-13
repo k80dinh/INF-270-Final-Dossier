@@ -902,3 +902,19 @@ hr.my-divider3 {
     color: rgb(79, 128, 192);
 }
 
+main{
+max-width:900px;
+margin:auto;
+padding:30px;
+line-height:1.7;
+}
+
+h1{
+font-family:"Playfair Display", serif;
+margin-bottom:20px;
+}
+
+h2{
+font-family:"Playfair Display", serif;
+margin-top:40px;
+}
