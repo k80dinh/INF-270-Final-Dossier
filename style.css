@@ -777,6 +777,30 @@ hr.my-divider3 {
     align-items: center;
 }
 
+.labortrendcontainer{
+    font-family: "Montserrat";
+    font-size: clamp(18px, 2.5vw, 22px);
+
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+
+    line-height: 1.5; 
+}
+
+.jobdis header {
+    text-align: center;
+}
+
+.enterprofession header {
+    text-align: center;
+}
+
+.jobdis{
+    margin-top: 10%;
+}
+
+
 /* formatting for interview page*/
 .interviewtitle{
     font-family: "Playfair Display";
