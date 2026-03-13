@@ -906,15 +906,14 @@ main{
 max-width:900px;
 margin:auto;
 padding:30px;
-line-height:1.7;
+line-height:1.6;
 }
 
-h1{
-font-family:"Playfair Display", serif;
-margin-bottom:20px;
+p{
+margin-bottom:18px;
 }
 
-h2{
-font-family:"Playfair Display", serif;
+h1, h2{
 margin-top:40px;
+margin-bottom:15px;
 }
