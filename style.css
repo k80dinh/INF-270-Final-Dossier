@@ -224,6 +224,20 @@ body {
     line-height: 1.5;
 }
 
+.reference1{
+  font-family: "Montserrat";
+  font-size: clamp(14px, 2vw, 18px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5;
+}
+
 hr.my-divider {
   border: none; 
   height: 10px; 
