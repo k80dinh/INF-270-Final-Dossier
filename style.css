@@ -917,3 +917,45 @@ h1, h2{
 margin-top:40px;
 margin-bottom:15px;
 }
+
+/* Ai implications formatting*/
+.hero8 {
+    width: 100%;
+    min-height: 60vh;
+
+    background-image: url(japan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;  
+}
+
+.aititle{
+    font-family: "Playfair Display";
+    font-size: clamp(35px, 4vw, 50px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(148, 180, 223);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.aicontent{
+    font-family: "Montserrat";
+    font-size: clamp(18px, 2.5vw, 22px);
+
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+
+    line-height: 1.5; 
+}
+
+
