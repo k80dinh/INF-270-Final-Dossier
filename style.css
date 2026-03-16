@@ -800,6 +800,11 @@ hr.my-divider3 {
     margin-top: 10%;
 }
 
+.md header{
+    text-align: center;
+    margin-top: 15%;
+}
+
 
 /* formatting for interview page*/
 .interviewtitle{
