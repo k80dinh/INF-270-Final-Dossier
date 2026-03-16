@@ -633,7 +633,7 @@ hr.my-divider3 {
 
 .jbcontent{
     font-family: "Montserrat";
-    font-size: clamp(24px, 3vw, 26px);
+    font-size: clamp(20px, 2vw, 24px);
 
     display: flex;
     flex-direction: column;
