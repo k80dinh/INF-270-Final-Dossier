@@ -1011,4 +1011,17 @@ margin-bottom:15px;
     line-height: 1.5; 
 }
 
+.reference4{
+  font-family: "Montserrat";
+  font-size: clamp(14px, 2vw, 18px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5;
+}
 
